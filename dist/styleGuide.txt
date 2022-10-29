@@ -1,0 +1,4 @@
+Colors - #EBEBED, #1E1D30, #CA3037, #FFFFFF.
+
+color primary - #1E1D30 bolder, #9B99A1 lighter
+color accent - #EBEBED lighter, #CACBD2 darker
