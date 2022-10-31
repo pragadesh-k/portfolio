@@ -188,10 +188,6 @@ main {
   border-radius: 2px;
 }
 
-/* .space {
-  height: 0;
-} */
-
 /* Portfolio  */
 .portfolio .content {
   padding-block-start: 5rem;
@@ -298,7 +294,7 @@ main {
   }
 
   .welcome-flex-parent {
-    height: calc(100vh - 59px);
+    /* height: calc(100vh - 59px); */
     gap: 3rem;
   }
 
