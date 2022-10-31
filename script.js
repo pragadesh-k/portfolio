@@ -22,4 +22,4 @@ mobileNavToggle.addEventListener("click", (eve) => {
 });
 
 // space.style.height = skillMeter.offsetHeight + 40 + "px";
-welcomeFlexParent.style.minHeight = welcomeContent.offsetHeight + "px";
+// welcomeFlexParent.style.minHeight = welcomeContent.offsetHeight + "px";
