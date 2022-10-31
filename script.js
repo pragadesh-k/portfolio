@@ -4,6 +4,8 @@ const iconClose = document.querySelector(".icon-close");
 const primaryNavigation = document.querySelector(".primary-navigation");
 const skillMeter = document.querySelector(".skill-meter");
 const space = document.querySelector(".space");
+const welcomeContent = document.querySelector(".welcome-content");
+const welcomeFlexParent = document.querySelector(".welcome-flex-parent");
 
 mobileNavToggle.addEventListener("click", (eve) => {
   primaryNavigation.toggleAttribute("data-visible");
@@ -20,3 +22,4 @@ mobileNavToggle.addEventListener("click", (eve) => {
 });
 
 // space.style.height = skillMeter.offsetHeight + 40 + "px";
+welcomeFlexParent.style.minHeight = welcomeContent.offsetHeight + "px";

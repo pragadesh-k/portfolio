@@ -46,9 +46,9 @@ body {
   font-weight: var(--fw-regular);
 }
 
-main {
+/* main {
   padding-inline: var(--padding-sm);
-}
+} */
 
 .container-fluid {
   padding-inline: var(--padding-sm);
@@ -92,6 +92,9 @@ main {
 }
 
 /* Welcome section */
+.welcome-content {
+  min-height: calc(100vh - 59px);
+}
 .welcome-flex-parent {
   flex-direction: column;
 }
@@ -187,10 +190,6 @@ main {
   width: 95%;
   border-radius: 2px;
 }
-
-/* .space {
-  height: 0;
-} */
 
 /* Portfolio  */
 .portfolio .content {
@@ -298,7 +297,6 @@ main {
   }
 
   .welcome-flex-parent {
-    height: calc(100vh - 59px);
     gap: 3rem;
   }
 
